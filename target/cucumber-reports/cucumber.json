@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 721301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginPageTest.Configuration()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Testing login page",
+        "description": "",
+        "id": "login-functionality;testing-login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11861379000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on login page",
+            "match": {
+              "location": "LoginPageTest.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10097202800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Username\"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginPageTest.user_enters_Username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76156600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginPageTest.user_enters_Password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4410379399,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicked on login button",
+            "match": {
+              "location": "LoginPageTest.user_clicked_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 133625500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify title of the page",
+            "match": {
+              "location": "LoginPageTest.verify_title_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@BookStore"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "LoginPage.feature"
+  }
+]
